@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+* {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0px
+}
+html{
+    /* background-color: hsl(60, 82%, 98%)); */
+    background-color: #8dd1fc;
+}
+
+header {
+    text-align: center;`
+    background-color: #065a8f;
+    color: white;
+    padding: 5px;
+    font-size: 40px;
+}
+
+/* Navigation Bar */
+nav {
+    text-align: center;
+}
+nav > a {
+    display: inline-block;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#frontPageDescription{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+#frontPageDescription > img {
+    width: 30%;
+    margin: 10px;
+}
+
+#frontPageDescription > h2 {
+    margin: 20px;
+    margin-top: 0px;
+}
+
+
+/* Story */
+#story{
+    text-align: center;
+    background-color: #065a8f;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+}
+
+#story > img {
+    margin: auto;
+    /* text-align: center; */
+    width: 30%;
+    margin: 10px;
+}
+
+#story > p {
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #409fdb;
+    /* margin-bottom: 10px; */
+}
+#footerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer > div > img {
+    width: 200px;
+}
+
+footer > a {
+    display: inline-block;
+    margin: 10px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* Image Credits */
+.credit {
+    font-size: 12px;
+    margin: 0px;
+    padding: 0px;
+} 
+#credits {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* Forms */
+form{
+    margin: auto;
+    padding-top:20px;
+}
+
+form > div{
+    margin: auto;
+}
+.container {
+    width: 50%;
+    clear: both;
+    margin: auto;
+}
+
+.container input {
+    width: 100%;
+    clear: both;
+}
+
+#submitreset{
+    width: 30%;
+    display: flex;
+    text-align: center;
+}
+
+#submitreset > * {
+    margin: 10px;
+    font-size: 20px;
+}
+
+.questionsbox{
+    height: 50px;
+}
+
+
+
+@media (max-width: 1024px){
+    #frontPageDescription > h2 {
+        font-size: 26px;
+    }
+
+    .remove-one{
+        display: none; 
+        margin: 0 auto;
+    }
+    .credit{
+        display: none; 
+        margin: 0 auto;
+    }
+
+    #story{
+        width: 100%;
+    }
+    .lastImage{
+        width: 75%;
+    }
+}
+
+@media (max-width: 480px) {
+    .remove-two{
+        display: none; 
+        margin: 0 auto;
+    }
+    .lastImage{
+        width: 75%;
+    }
+    
+}
